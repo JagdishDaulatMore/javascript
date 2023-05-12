@@ -1,6 +1,6 @@
 
 function stringHandsOn (){
-console.log("1)Given string is at it is:  Hey you are doing good, keep it up   ");
+console.log("1)Given string is as it is:  Hey you are doing good, keep it up   ");
 
 var strOne = "  Hey you are doing good, keep it up   ";
 var charLength = strOne.length;
