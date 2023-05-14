@@ -91,30 +91,3 @@ console.log(`F b) Square of the total number of words in given string is: ${resu
 
 }
  strOne();
-
-//  var stsplitlength = 7;
-// var st = "JS the most popular language of internet";
-// var method = function(num){
-//     var stLength = st.length;
-//     var stchatAtSixIndex = st.charAt(6);
-//     var stchatAtElevenIndex = st.charAt(11);
-//     var stLastChar = st.charAt(stLength-1);
-//     var stFirstChar = st.charAt("0");
-    
-//     console.log(`A. Total Character Avaliable in the String: ${stLength}`);
-//     console.log(`B. Character at index 6: ${stchatAtSixIndex}`);
-//     console.log(`C. Character at index 11: ${stchatAtElevenIndex}`);
-//     console.log(`D. Last Character using Length Property: ${stLastChar}`);
-//     console.log(`E. First Character From The given String : ${stFirstChar}`);
-//     var stSplit = st.split(" ");
-
-
-  
-//     console.log(`F a). Total number of Words in the given string : ${stSplit.length}`);
-//     var result = num*num;
-    
-//     console.log( `F b). Square of Total number of words in given string : ${result}`);
-
-
-// }
-//   method(stsplitlength);
