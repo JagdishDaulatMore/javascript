@@ -1,10 +1,9 @@
 
 console.log(`1. write a normal function in such a way that it should accept one string value as argument.`);
 function squareOfWordLength(str){
-    var wordsLength = str.split(" ");
-    var lengthOfWordString = wordsLength.length;
-    var stringLengthSquare = lengthOfWordString*lengthOfWordString;
-    console.log(`Length of words in string is:${lengthOfWordString}`);
+    var wordLength = str.length;
+    var stringLengthSquare = wordLength*wordLength;
+    console.log(`Length of words in string is:${wordLength}`);
     console.log(`Square of words in string is:${stringLengthSquare}`);
 
 
