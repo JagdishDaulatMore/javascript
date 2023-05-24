@@ -33,3 +33,7 @@ console.log(`7) Slice element from 1 to 4 index, the array is: ${sliceElements}\
 let lastThirdElement = arrayFruits.length-3;
 let lastThreeElements = arrayFruits.slice(lastThirdElement);
 console.log(`8) Select last 3 element, the array is: ${lastThreeElements}`);
+
+
+
+
