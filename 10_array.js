@@ -87,8 +87,6 @@ console.log(arrayOfRollNumbers);
 arrayOfRollNumbers.splice(2, 2, 111, 22, 333);
 
 
-array.splice(1,0, );
-
 
 
 console.log(`==== Traversing array =====`);
@@ -136,5 +134,6 @@ console.log(`------ Resize an array -------`);
 var arrayNames = ["Anil", "Siya", "Ram" ,"Sunil", "Jenny"];
 arrayNames.length = 3;
 console.log(arrayNames);
+console.table(arrayNames);
 
 
