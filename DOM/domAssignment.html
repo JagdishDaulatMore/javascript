@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+<h1>HTML & JavaScript are cruicial technologies</h1>
+<p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+
+        </div>
+
+</main>
+    <script>
+const mainHeading = document.querySelector("h1");
+console.log(mainHeading.innerHTML);
+const secondAdvantage = document.querySelectorAll("li");
+console.log(secondAdvantage[1].innerHTML);
+const advDiv = document.querySelector("#advantages");
+console.log(advDiv.innerHTML);
+    </script>
+</body>
+</html>
