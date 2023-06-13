@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning</title>
+</head>
+<body>
+    <h1 id="myprofile">My Profile Details</h1>
+    <div><h2 style="color: red; font-family:sans-serif" >Technology Stack</h2></div>
+    <div>
+        <ul class="techStack">
+            <li>HTML and CSS</li>
+            <li id="agileAndJira">Agile and JIRA</li>
+            <li>Angular or React</li>
+            <li>Oracle Database</li>
+        </ul>
+    </div>
+
+    <div>
+        <div>
+            <h1>My Hobbies</h1>
+        </div>
+        
+    </div>
+    <a href="https://www.google.com/" target="blank" class="link">My Profile</a>
+    <div>
+        <p>Project Description</p>
+    </div>
+
+    <script>
+        console.log('Change an element attribute href ');
+        const elementLink = document.querySelector(".link");
+        elementLink.setAttribute('href', 'https://www.linkedin.com/login');
+        
+
+        console.log('Changing CSS properties');
+        const changeColorMyProfile = document.querySelector("#myprofile");
+        changeColorMyProfile.style.color = '#808e9b';
+        
+
+        console.log('Removing an element');
+        const elementTechStack = document.querySelector(".techStack");
+        const elementAgileAndJira = document.querySelector("#agileAndJira");
+        elementTechStack.removeChild(elementAgileAndJira);
+        
+    </script>
+</body>
+
+</html>
