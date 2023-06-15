@@ -68,5 +68,3 @@ elementContact.addEventListener('click', ()=>{
 function show(){
     alert('show function called');
 }
-
-
