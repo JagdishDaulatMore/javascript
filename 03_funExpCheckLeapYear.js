@@ -1,7 +1,7 @@
 console.log(`============== Program to Check year is leap year or not ==============`);
 let checkLeapYear = function(leapYear){
     
-if(leapYear==null || leapYear==undefined || leapYear==0){
+if(leapYear==null || leapYear==undefined || leapYear==0 || leapYear=='NaN' || leapYear=="Twenty Twenty"){
     console.log(`${leapYear} : This is invalid input`);
 }else{
     
@@ -24,4 +24,6 @@ checkLeapYear("Twenty Twenty");
 checkLeapYear(undefined);
 checkLeapYear("NaN");
 checkLeapYear(1750);
+checkLeapYear("100");
+checkLeapYear(0);
 
