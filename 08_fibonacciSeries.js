@@ -32,3 +32,19 @@ console.log(`Fibonacci series is: [${fibSeries}]`);
 //   }
 
 //   printFibonacci(10); // prints the first 10 numbers in the Fibonacci series
+
+
+
+// console.log('Fibonacci Series:');
+// let n1 = 0, n2 = 1, nextTerm;
+// function fibonacciNum(number){
+
+// for (let i = 1; i <= number; i++) {
+//     console.log(n1);
+//     nextTerm = n1 + n2;
+//     n1 = n2;
+//     n2 = nextTerm;
+// }
+
+// }
+// fibonacciNum(10);
