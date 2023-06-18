@@ -73,3 +73,7 @@ console.log(arrayIds);
 
 
 
+const arrEven = array.filter((element)=>{
+    return element%2==0;
+});
+console.log(arrEven);
