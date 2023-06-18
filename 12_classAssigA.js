@@ -67,10 +67,10 @@ class College {
     this.phoneNo = phoneNo;
   }
 }
-const coep = new College("COEP", "Engineering", "Pune", 02025507000);
-const sinhgad = new College("Sinhgad", "Engineering", "Mumbai", 02024354705);
-const wadia = new College("Wadia", "Engineering", "Pune", 0202616233);
-const dyPatil = new College("Raisoni", "Engineering", "Kolhapur", 02312601433);
+const coep = new College("COEP", "Engineering", "Pune", o2025507000);
+const sinhgad = new College("Sinhgad", "Engineering", "Mumbai", o2024354705);
+const wadia = new College("Wadia", "Engineering", "Pune", o202616233);
+const dyPatil = new College("Raisoni", "Engineering", "Kolhapur", o2312601433);
 
 traverseObject(coep);
 traverseObject(sinhgad);
