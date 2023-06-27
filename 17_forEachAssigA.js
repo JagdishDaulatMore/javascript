@@ -57,3 +57,31 @@ arrayNumbers.forEach((element, index) => {
     console.log(element);
   }
 });
+
+
+arrayNumbers.forEach((element)=>{
+
+  if(element%2==0){
+    console.log(`${element}`);
+  }
+});
+
+
+arrayNumbers.forEach((element)=>{
+if(element>0){
+  console.log(element);
+}
+});
+
+let sum1= 0;
+arrayNumbers.forEach((element)=>{
+  sum1=sum1+element;
+});
+console.log(sum1);
+
+
+arrayNumbers.forEach((element, index)=>{
+  if(index%2==0){
+    console.log(element);
+  }
+})
